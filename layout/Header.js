@@ -8,6 +8,7 @@ export default function Header() {
           <li>Ashwin</li>
           <li>Eswar</li>
           <li>temple app</li>
+          <li>sarangan</li>
         </ul>
       </nav>
     </div>
