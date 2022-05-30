@@ -55,7 +55,7 @@ const Layout = ({ metaDatas = {}, children, sideMenu }) => {
       <div id="wrapper" style={{width:"100%"}}>
         <Header />
         <div id="page-content-wrapper"> 
-          <div className="mb-5">{children}</div>
+          <div className="mb-5 px-4">{children}</div>
         </div>
       </div>
 
