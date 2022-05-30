@@ -52,11 +52,9 @@ const Layout = ({ metaDatas = {}, children, sideMenu }) => {
           rel="stylesheet"
         />
       </Head>
-
-      <div className="d-flex" id="wrapper">
+      <div id="wrapper" style={{width:"100%"}}>
         <Header />
-        <div id="page-content-wrapper">
-          
+        <div id="page-content-wrapper"> 
           <div className="mb-5">{children}</div>
         </div>
       </div>
